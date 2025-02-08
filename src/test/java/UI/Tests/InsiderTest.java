@@ -18,7 +18,7 @@ public class InsiderTest {
         System.out.println("description = " + description);
     }
 
-    @Test(invocationCount = 1, description = "Insider Page UI Test")
+    @Test(invocationCount = 5, description = "Insider Page UI Test")
     public void testInsider() {
         navigateToURL(ConfigurationReader.getProperty("insiderHomePage")); // open insider home page
 

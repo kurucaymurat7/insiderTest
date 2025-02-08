@@ -86,7 +86,7 @@ public class Commands {
 
     public static String getCurrentDateTime() {
         LocalDateTime dateTime = LocalDateTime.now();
-        DateTimeFormatter formatterSaat = DateTimeFormatter.ofPattern("YYYYMMddHHmm");
+        DateTimeFormatter formatterSaat = DateTimeFormatter.ofPattern("YYYY/MM/dd_HH:mm");
         return formatterSaat.format(dateTime);
     }
 
